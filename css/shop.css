@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    color: #fff;
+}
+section.content {
+    width: 70%;
+    float: none;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+table.products img {
+	width: 150px;
+}
+table.products input {
+	width: 50px;
+}
+table h2.total {
+	text-align: right;
+}

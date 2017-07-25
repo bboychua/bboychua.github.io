@@ -1,0 +1,36 @@
+.entry.post-content {
+	font-size: 26px;
+}
+
+section.content {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url('../images/background-book.png');
+    background-size: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content article.post {
+	text-align: center;
+}
+.content article .post-content {
+	text-align: justify;
+}
+img.illustration.first {
+    -webkit-transition: opacity 1.2s;
+    -moz-transition: opacity 1.2s;
+    -o-transition: opacity 1.2s;
+    transition: opacity 1.2s;
+}
+img.illustration {
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+img.illustration.show {
+    opacity: 1;
+}
